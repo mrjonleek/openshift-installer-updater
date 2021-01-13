@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # TODO: Describe functionality.
 
 # Set strict execution parameters. 
@@ -32,4 +33,4 @@ wget -cO - $BIN_ARCH \
 printf "Binary directory: $(which openshift-install)\n"
 
 # Prove the updated binary version
-printf $(openshift-install version)
+printf "$(openshift-install version)"
