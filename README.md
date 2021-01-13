@@ -1,1 +1,2 @@
-/usr/local/sbin/ocpui
+# TODO:
+/usr/local/bin/ocpui
