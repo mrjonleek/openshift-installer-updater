@@ -32,4 +32,4 @@ wget -cO - $BIN_ARCH \
 printf "Binary directory: $(which openshift-install)\n"
 
 # Prove the updated binary version
-echo $(openshift-install version)
+printf $(openshift-install version)
